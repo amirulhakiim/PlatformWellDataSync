@@ -1,0 +1,6 @@
+@PlatformWellDataSync_HostAddress = http://localhost:5078
+
+GET {{PlatformWellDataSync_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
