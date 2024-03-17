@@ -5,7 +5,7 @@ using PlatformWellDataSync.Models;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-// POST: api/Syncs/StartSync
+
 [ApiController]
 [Route("api/[controller]")]
 public class SyncsController : ControllerBase
@@ -29,7 +29,7 @@ public class SyncsController : ControllerBase
         return token.Trim('"');
     }
 
-
+    // POST: api/Syncs/StartSync
     [HttpPost("StartSync")]
     public async Task<IActionResult> StartSync([FromBody] SyncRequest request)
     {
