@@ -45,7 +45,7 @@ PLATFORMWELLDATASYNC
 ├── docker-compose.yml             # Defines the services, networks, and volumes for Docker
 ├── Dockerfile                     # Instructions for building the .NET Core application image
 ├── PlatformWellDataSync.csproj    # Project file containing project metadata and configurations
-├── README.md                      # Markdown file with project documentation
+└── README.md                      # Markdown file with project documentation
 ```
 
 ## Setup Instructions
